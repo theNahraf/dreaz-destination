@@ -224,6 +224,15 @@ document.addEventListener('DOMContentLoaded', () => {
   renderHomePackages();
   renderTestimonials();
   initTypewriter();
-  // Small delay so Swiper can find slides
-  setTimeout(initHomeSwipers, 100);
+  
+  // Initialize Swipers after a small delay to ensure DOM is ready
+  setTimeout(() => {
+    initHomeSwipers();
+    if (typeof AOS !== 'undefined') AOS.refresh();
+  }, 100);
+});
+
+// Refresh AOS when all images are loaded to recalculate exact offsets
+window.addEventListener('load', () => {
+  if (typeof AOS !== 'undefined') AOS.refresh();
 });
