@@ -93,7 +93,7 @@ function renderHomePackages() {
     const waMsg = `Hi! I'm interested in the ${pkg.title} package (${pkg.duration}, ${pkg.price}/person). Please share details.`;
 
     return `
-      <div class="card" data-aos="fade-up" data-aos-delay="${i * 100}">
+      <div class="card" data-aos="fade-up" data-aos-delay="${(i % 3) * 100}">
         <div class="card-image">
           <img src="${pkg.image}" alt="${pkg.title}" loading="lazy">
           <div class="card-badge ${badgeColor}">${pkg.badge}</div>
@@ -124,6 +124,8 @@ function renderHomePackages() {
       </div>
     `;
   }).join('');
+
+  if (typeof AOS !== 'undefined') AOS.refresh();
 }
 
 // ---- Render Testimonials ----
