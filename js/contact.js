@@ -40,8 +40,27 @@ document.addEventListener('DOMContentLoaded', () => {
       const result = await response.json();
 
       if (result.success) {
-        showToast('success', 'Message Sent! ✈️', 'Our travel expert will reach out within 2 hours!');
+        showToast('success', 'Message Sent! ✈️', 'Redirecting to WhatsApp...');
         form.reset();
+        
+        // Construct a clean WhatsApp message using the formatted data
+        const waMessage = `*New Website Inquiry* ✈️
+        
+*Name:* ${data['Full Name']}
+*Email:* ${data['Email Address']}
+*Phone:* ${data['Phone Number']}
+*Destination:* ${data['Destination']}
+*Dates:* ${data['Travel Dates']}
+*Travelers:* ${data['Number of Travelers']}
+*Message:* ${data['Message']}
+
+Hi! I just submitted this inquiry on your website.`;
+
+        // Redirect to WhatsApp after a brief delay so they see the success toast
+        setTimeout(() => {
+          window.location.href = waLink(waMessage);
+        }, 1500);
+
       } else {
         showToast('error', 'Oops!', 'Something went wrong. Please try WhatsApp instead.');
       }
