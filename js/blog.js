@@ -1,6 +1,6 @@
 /* ========== BLOG PAGE ========== */
 const blogPosts = [
-  { id:1, title:'10 Must-Visit Places in Kashmir for First-Timers', excerpt:'Kashmir is a paradise that needs no introduction. Here are the top 10 spots every traveler must experience on their first visit to this heavenly valley.', image:'https://images.unsplash.com/photo-1597074866923-dc0589150a53?w=600&q=80', cat:'guides', date:'May 10, 2026', readTime:'5 min',
+  { id:1, title:'10 Must-Visit Places in Kashmir for First-Timers', excerpt:'Kashmir is a paradise that needs no introduction. Here are the top 10 spots every traveler must experience on their first visit to this heavenly valley.', image:'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8a2FzaG1pcnxlbnwwfHwwfHx8MA%3D%3D', cat:'guides', date:'May 10, 2026', readTime:'5 min',
     content:`<p>Kashmir, often called "Paradise on Earth," is a destination that should be on every traveler's bucket list. From the serene Dal Lake to the snow-capped peaks of Gulmarg, here are the must-visit places:</p>
     <h3>1. Dal Lake, Srinagar</h3><p>The iconic heart of Kashmir. Take a shikara ride at sunset, stay in a traditional houseboat, and experience the floating markets. The reflection of mountains in the calm waters is truly magical.</p>
     <h3>2. Gulmarg</h3><p>Known as the "Meadow of Flowers," Gulmarg transforms into a winter wonderland with Asia's highest gondola ride. Perfect for skiing in winter and trekking in summer.</p>
@@ -22,14 +22,6 @@ const blogPosts = [
     <h3>Transport: ₹300-500</h3><p>Trains are the backbone of budget travel. Book sleeper class tickets weeks in advance. Local buses are even cheaper.</p>
     <h3>Activities: ₹200-400</h3><p>Many temples, beaches, and natural attractions are free. Museum entries rarely exceed ₹100.</p>
     <p><strong>Pro tip:</strong> Travel during shoulder season (Sep-Nov, Feb-Mar) for the best deals on everything!</p>`
-  },
-  { id:4, title:'Bali vs Thailand: Which One Should You Choose?', excerpt:'Both are stunning, affordable, and perfect for almost any traveler. But which one is right for YOUR trip? Let\'s break it down.', image:'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&q=80', cat:'guides', date:'Apr 20, 2026', readTime:'7 min',
-    content:`<p>It's the ultimate Southeast Asia showdown. Both Bali and Thailand offer incredible experiences, but they cater to different vibes.</p>
-    <h3>For Culture & Spirituality: Bali Wins</h3><p>Bali's Hindu temples, rice terrace ceremonies, and spiritual retreats create a unique cultural immersion that's hard to match.</p>
-    <h3>For Nightlife & Food: Thailand Wins</h3><p>Bangkok's street food scene is legendary, and the nightlife in Phuket and Pattaya is unmatched. Thai cuisine is a global favorite.</p>
-    <h3>For Beaches: It's a Tie!</h3><p>Bali has dramatic cliff beaches and surf spots. Thailand has crystal-clear island beaches and party shores.</p>
-    <h3>For Budget: Thailand is Slightly Cheaper</h3><p>Both are affordable, but Thailand edges out with cheaper street food and transport.</p>
-    <p><strong>Our verdict:</strong> Choose Bali for a relaxing, cultural retreat. Choose Thailand for adventure, nightlife, and food. Or better yet — do both with our combo package!</p>`
   },
   { id:5, title:'5 Essential Travel Safety Tips for Solo Travelers', excerpt:'Solo travel is liberating, but safety should always be a priority. Here are 5 proven tips to stay safe while exploring the world alone.', image:'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80', cat:'tips', date:'Apr 15, 2026', readTime:'4 min',
     content:`<p>Solo travel is one of the most rewarding experiences. Stay safe with these essential tips:</p>

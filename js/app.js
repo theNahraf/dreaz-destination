@@ -52,7 +52,8 @@ const LOGO_SVG = {
 
 // ---- Phone & links config ----
 const PHONE = '918178390282';
-const PHONE_DISPLAY = '+91 81783 90282';
+const PHONE_DISPLAY = '+91 8178390282';
+const PHONEDISPLAY = '+91 8700282601';
 const WHATSAPP_BASE = `https://wa.me/${PHONE}`;
 const INSTAGRAM_URL = 'https://instagram.com/dremzdestination';
 const EMAIL = 'dremzdestination@gmail.com';
@@ -233,10 +234,9 @@ function renderFooter() {
           <h4 class="text-white font-semibold text-lg mb-5 font-sans">Quick Links</h4>
           <ul class="space-y-3 text-sm">
             <li><a href="index.html"><i class="fas fa-chevron-right text-xs text-teal-400 mr-2"></i>Home</a></li>
-            <li><a href="packages.html"><i class="fas fa-chevron-right text-xs text-teal-400 mr-2"></i>Tour Packages</a></li>
-        
+            <li><a href="packages.html"><i class="fas fa-chevron-right text-xs text-teal-400 mr-2"></i>Packages</a></li>
+            <li><a href="hotels.html"><i class="fas fa-chevron-right text-xs text-teal-400 mr-2"></i>Hotels</a></li>
             <li><a href="about.html"><i class="fas fa-chevron-right text-xs text-teal-400 mr-2"></i>About Us</a></li>
-      
             <li><a href="blog.html"><i class="fas fa-chevron-right text-xs text-teal-400 mr-2"></i>Blog</a></li>
             <li><a href="contact.html"><i class="fas fa-chevron-right text-xs text-teal-400 mr-2"></i>Contact</a></li>
           </ul>
@@ -261,6 +261,9 @@ function renderFooter() {
           <div class="space-y-3 text-sm">
             <a href="tel:${PHONE_DISPLAY.replace(/\s/g, '')}" class="flex items-center gap-3 hover:text-white">
               <i class="fas fa-phone-alt text-teal-400"></i>${PHONE_DISPLAY}
+            </a>
+            <a href="tel:${PHONEDISPLAY.replace(/\s/g, '')}" class="flex items-center gap-3 hover:text-white">
+              <i class="fas fa-phone-alt text-teal-400"></i>${PHONEDISPLAY}
             </a>
             <a href="mailto:${EMAIL}" class="flex items-center gap-3 hover:text-white">
               <i class="fas fa-envelope text-teal-400"></i>${EMAIL}
@@ -291,11 +294,7 @@ function renderFooter() {
         </div>
         <div class="flex flex-col md:flex-row items-center justify-between gap-4 pt-6 border-t border-white/5">
           <p class="text-white/40 text-sm">© ${new Date().getFullYear()} Dremz Destination. All rights reserved. <span class="ml-2">Last updated: May 2026</span></p>
-          <div class="flex gap-4 text-sm text-white/40">
-            <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
-            <a href="#" class="hover:text-white transition-colors">Sitemap</a>
-          </div>
+          
         </div>
       </div>
     </div>
