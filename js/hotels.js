@@ -112,7 +112,7 @@ const allHotels = [
     brand: 'The Oberoi Group',
     name: 'Wildflower Hall, An Oberoi Resort - Shimla',
     location: 'Wildflower Hall, An Oberoi Resort - Shimla',
-    image: 'https://images.unsplash.com/photo-1542314831-c6a4d142104d?w=600&q=80'
+    image: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzLvjK3cOmpEDepJawtEwgTbNhtm-nvufc7vlR3QlxcX9PIrJ8bn7de_WWmzs9GvzTIIK38IQL50RcTO8dvP1bcQc06AX3CsagtEy47YwPpbuwIYnZcRqMCsgCSiXWYp9ovzk=s1360-w1360-h1020-rw'
   },
   {
     id: 17,

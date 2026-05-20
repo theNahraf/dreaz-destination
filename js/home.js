@@ -190,7 +190,6 @@ function initHomeSwipers() {
 
 // ---- Initialize ----
 document.addEventListener('DOMContentLoaded', () => {
-  renderHomePackages();
   renderTestimonials();
   initTypewriter();
   

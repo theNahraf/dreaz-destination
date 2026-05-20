@@ -167,7 +167,7 @@
         <!-- Search Bar -->
         <div class="search-bar max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="800">
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            <div>
+            <div class="min-w-0 w-full">
               <label class="text-white/50 text-xs font-semibold mb-1 block text-left">Destination</label>
               <select class="search-input" id="hero-destination">
                 <option value="">Where to?</option>
@@ -182,14 +182,14 @@
                 <!-- <option></option> -->
               </select>
             </div>
-            <div>
+            <div class="min-w-0 w-full">
               <label class="text-white/50 text-xs font-semibold mb-1 block text-left">Travel Date</label>
               <input type="text" placeholder="Select Date" class="search-input" id="hero-date"
                 onfocus="this.type='date'; if(this.showPicker) this.showPicker();"
                 onblur="if(!this.value) this.type='text'"
                 onclick="if(this.type==='date' && this.showPicker) this.showPicker();">
             </div>
-            <div>
+            <div class="min-w-0 w-full">
               <label class="text-white/50 text-xs font-semibold mb-1 block text-left">Travelers</label>
               <select class="search-input" id="hero-travelers">
                 <option value="">How many?</option>
@@ -200,7 +200,7 @@
                 <option>10+ Group</option>
               </select>
             </div>
-            <div class="flex items-end">
+            <div class="min-w-0 w-full flex items-end">
               <button onclick="searchTrip()" class="btn-gold w-full justify-center" id="hero-search-btn">
                 <span>Search</span>
                 <i class="fas fa-search"></i>
@@ -268,9 +268,29 @@
               </a>
             </div>
             <!-- Slide 4 -->
-
+            <div class="swiper-slide">
+              <a href="packages.html?v=4#others" class="block dest-card cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFkYWtofGVufDB8fDB8fHww" alt="Kerala"
+                  loading="lazy">
+                <div class="dest-overlay">
+                  <p class="text-amber-400 text-xs font-semibold tracking-wider uppercase mb-1">India</p>
+                  <h3 class="text-white text-xl font-heading font-bold">Leh Ladakh</h3>
+                  <p class="text-white/60 text-sm mt-1">Incredible Experience on Earth</p>
+                </div>
+              </a>
+            </div>
             <!-- Slide 5 -->
-
+            <div class="swiper-slide">
+              <a href="packages.html?v=4#uttarakhand" class="block dest-card cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1601821139990-9fc929db79ce?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VXR0YXJha2hhbmR8ZW58MHx8MHx8fDA%3D" alt="UK"
+                  loading="lazy">
+                <div class="dest-overlay">
+                  <p class="text-amber-400 text-xs font-semibold tracking-wider uppercase mb-1">India</p>
+                  <h3 class="text-white text-xl font-heading font-bold">Uttarakhand</h3>
+                  <p class="text-white/60 text-sm mt-1">Heaven on Earth</p>
+                </div>
+              </a>
+            </div>
             <!-- Slide 6 -->
 
             <!-- Slide 7 -->
@@ -342,18 +362,64 @@
       </div>
     </section>
 
-    <!-- ===== POPULAR TOUR PACKAGES ===== -->
-    <section class="py-20 bg-gray-50" id="packages-section">
+    <!-- ===== MASONRY GALLERY ===== -->
+    <section class="py-20 bg-gray-50" id="gallery-section">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-14" data-aos="fade-up">
-          <p class="section-subtitle">Curated For You</p>
-          <h2 class="section-title">Popular Tour Packages</h2>
-          <p class="section-desc mx-auto mt-3">Expertly designed itineraries at unbeatable prices. Your adventure
-            awaits.</p>
+          <p class="section-subtitle">Visual Journey</p>
+          <h2 class="section-title">Explores The World</h2>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="home-packages-grid">
-          <!-- Package cards injected by JS -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[120px] md:auto-rows-[180px] grid-flow-row-dense" data-aos="fade-up">
+          <!-- Item 1: Kashmir (1x1) -->
+          <div class="rounded-xl overflow-hidden shadow-sm col-span-1 row-span-1 relative group cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=800&q=80" alt="Kashmir" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+          </div>
+          <!-- Item 2: Goa (1x1) -->
+          <div class="rounded-xl overflow-hidden shadow-sm col-span-1 row-span-1 relative group cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80" alt="Goa Beach" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+          </div>
+          <!-- Item 3: Rajasthan (Mobile: 2x2, Desktop: 1x3) -->
+          <div class="rounded-xl overflow-hidden shadow-sm col-span-2 md:col-span-1 row-span-2 md:row-span-3 relative group cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1641319626759-cc9ea5b18107?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxhZGFraHxlbnwwfHwwfHx8MA%3D%3D" alt="Rajasthan Hawa Mahal" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+          </div>
+          <!-- Item 4: Kerala Backwaters (Hidden on mobile, 1x1 on desktop) -->
+          <div class="rounded-xl overflow-hidden shadow-sm col-span-1 row-span-1 relative group cursor-pointer hidden md:block">
+            <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&q=80" alt="Kerala Backwaters" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+          </div>
+          
+          <!-- Item 5: Uttarakhand (2x2) -->
+          <div class="rounded-xl overflow-hidden shadow-sm col-span-2 row-span-2 relative group cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1200&q=80" alt="Uttarakhand" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+          </div>
+          <!-- Item 6: Rajasthan Desert (Hidden on mobile, 1x3 on desktop) -->
+          <div class="rounded-xl overflow-hidden shadow-sm col-span-1 row-span-2 md:row-span-3 relative group cursor-pointer hidden md:block">
+            <img src="https://images.unsplash.com/photo-1616693139578-f1c17deb0d4f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGhhciUyMGRlc2VydHxlbnwwfHwwfHx8MA%3D%3D" alt="Rajasthan Desert" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+          </div>
+
+          <!-- Item 7: Goa Fort/Vagator (2x2) -->
+          <div class="rounded-xl overflow-hidden shadow-sm col-span-2 row-span-2 relative group cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=1200&q=80" alt="Goa Coast" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+          </div>
+
+          <!-- Item 8: Kerala Tea Gardens (Mobile: 1x1, Desktop: 1x1) -->
+          <div class="rounded-xl overflow-hidden shadow-sm col-span-1 row-span-1 relative group cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=800&q=80" alt="Kerala Tea Gardens" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+          </div>
+          
+          <!-- Item 9: Kashmir Valley (Mobile: 1x1, Desktop: 2x1) -->
+          <div class="rounded-xl overflow-hidden shadow-sm col-span-1 md:col-span-2 row-span-1 relative group cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1614056965546-42fbe24eb36c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGthc2htaXJ8ZW58MHx8MHx8fDA%3D" alt="Kashmir Valley" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+          </div>
         </div>
 
         <div class="text-center mt-12" data-aos="fade-up">

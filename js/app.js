@@ -4,14 +4,14 @@
 const LOGO_SVG = {
   // Horizontal logo (navbar)
   horizontal: `
-    <div class="flex items-center gap-3">
-      <img src="dd-logo.png" alt="DD Logo" class="h-10 md:h-12 w-auto object-contain">
+    <div class="flex items-center gap-2 md:gap-3">
+      <img src="dd-logo.png" alt="DD Logo" class="h-9 md:h-12 w-auto object-contain">
       <div class="flex flex-col justify-center">
-        <div class="flex items-baseline gap-1.5 leading-none">
-          <span class="font-heading text-[20px] md:text-2xl font-bold text-white tracking-[2px]">DREMZ</span>
-          <span class="font-heading text-[20px] md:text-2xl font-bold text-white tracking-[2px]">DESTINATION</span>
+        <div class="flex flex-col sm:flex-row sm:items-baseline gap-0.5 sm:gap-1.5 leading-tight sm:leading-none">
+          <span class="font-heading text-[15px] sm:text-[20px] md:text-2xl font-bold text-white tracking-[2px]">DREMZ</span>
+          <span class="font-heading text-[15px] sm:text-[20px] md:text-2xl font-bold text-white tracking-[2px]">DESTINATION</span>
         </div>
-        <span class="font-body text-[7px] md:text-[8px] text-amber-500 tracking-[4px] uppercase opacity-80 mt-1">Explore. Experience. Escape.</span>
+        <span class="font-body text-[6px] md:text-[8px] text-amber-500 tracking-[2px] md:tracking-[4px] uppercase opacity-80 mt-1">Explore. Experience. Escape.</span>
       </div>
     </div>
   `,
@@ -163,7 +163,7 @@ function renderNavbar() {
     <button class="absolute top-5 right-5 text-white text-2xl" id="close-menu-btn" aria-label="Close menu">
       <i class="fas fa-times"></i>
     </button>
-    <div class="mb-8">${LOGO_SVG.horizontal}</div>
+    <div class="mb-6 pt-2">${LOGO_SVG.horizontal}</div>
     ${mobileLinksHTML}
     <div class="mt-8 space-y-4">
       <a href="tel:${PHONE_DISPLAY.replace(/\s/g, '')}" class="flex items-center gap-3 text-white/70 hover:text-white">
