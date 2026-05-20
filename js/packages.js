@@ -140,7 +140,8 @@ function renderPackages(filter = 'all') {
 
   let html = '';
   Object.keys(grouped).forEach((dest) => {
-    html += `<div class="mb-16">
+    const destId = dest.toLowerCase().replace(/\s+/g, '-');
+    html += `<div class="mb-16 pt-24 -mt-24" id="${destId}">
       <h2 class="text-3xl font-bold text-center mb-8 text-gray-900 font-body uppercase tracking-wide">${dest === 'Himachal' ? 'Himachal -' : dest}</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">`;
 
