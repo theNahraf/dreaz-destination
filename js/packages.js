@@ -179,6 +179,17 @@ function renderPackages(filter = 'all') {
 
   grid.innerHTML = html;
 
+  // Fix: Because the DOM is built dynamically, the browser won't auto-scroll to anchor links.
+  // We manually scroll to the hash if it exists.
+  if (window.location.hash) {
+    setTimeout(() => {
+      const target = document.querySelector(window.location.hash);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 200);
+  }
+
   if (typeof AOS !== 'undefined') {
     // Small timeout to allow DOM to paint before recalculating offsets
     setTimeout(() => {

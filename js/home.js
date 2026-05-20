@@ -47,38 +47,7 @@ const homePackages = [
 ];
 
 // ---- Testimonials Data ----
-const testimonials = [
-  {
-    name: 'Priya Sharma', location: 'New Delhi',
-    photo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=80',
-    rating: 5, trip: 'Kashmir Package',
-    text: 'Absolutely magical experience! Dremz Destination planned every detail perfectly. The Dal Lake shikara ride at sunset was a memory I\'ll cherish forever. Highly recommend!'
-  },
-  {
-    name: 'Rahul Verma', location: 'Mumbai',
-    photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80',
-    rating: 5, trip: 'Bali Honeymoon',
-    text: 'Our honeymoon was beyond perfect thanks to the team. Every hotel, every transfer, every experience was curated just for us. The attention to detail is unmatched.'
-  },
-  {
-    name: 'Ananya Patel', location: 'Bangalore',
-    photo: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80',
-    rating: 5, trip: 'Kerala Family Trip',
-    text: 'Traveled with my parents and kids — Dremz made sure everyone had an amazing time. The houseboat experience in Alleppey was the highlight for our entire family!'
-  },
-  {
-    name: 'Vikram Singh', location: 'Jaipur',
-    photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80',
-    rating: 4, trip: 'Europe Tour',
-    text: 'A seamless 10-day Europe trip covering 4 countries. The itinerary was perfectly paced — not rushed at all. Great value for money. Will book again for sure!'
-  },
-  {
-    name: 'Meera Krishnan', location: 'Chennai',
-    photo: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&q=80',
-    rating: 5, trip: 'Maldives Getaway',
-    text: 'The Maldives trip was a dream come true. Overwater villa, private beach dinner, snorkeling — everything was arranged flawlessly. Thank you, Dremz Destination!'
-  }
-];
+
 
 // ---- Render Package Cards ----
 function renderHomePackages() {
