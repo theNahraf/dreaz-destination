@@ -115,16 +115,26 @@ h1, h2, h3, h4, h5, h6 {
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
 }
-.hero-bg {
+.hero-bg-slider {
+  position: absolute; inset: 0; z-index: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+.hero-bg-slide {
   position: absolute; inset: 0;
   background-size: cover; background-position: center;
-  transition: transform 8s ease;
+  opacity: 0;
+  transition: opacity 2s ease-in-out, transform 10s ease;
+  transform: scale(1);
 }
-.hero-bg::after {
+.hero-bg-slide.active {
+  opacity: 1;
+  transform: scale(1.08);
+}
+.hero-bg-slide::after {
   content: ''; position: absolute; inset: 0;
   background: linear-gradient(135deg, rgba(10,22,40,0.8) 0%, rgba(14,116,144,0.4) 100%);
 }
-.hero:hover .hero-bg { transform: scale(1.05); }
 
 /* Hero search bar */
 .search-bar {

@@ -188,10 +188,23 @@ function initHomeSwipers() {
   });
 }
 
+function initHeroSlider() {
+  const slides = document.querySelectorAll('.hero-bg-slide');
+  if (slides.length === 0) return;
+  
+  let current = 0;
+  setInterval(() => {
+    slides[current].classList.remove('active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('active');
+  }, 8000);
+}
+
 // ---- Initialize ----
 document.addEventListener('DOMContentLoaded', () => {
   renderTestimonials();
   initTypewriter();
+  initHeroSlider();
   
   // Initialize Swipers after a small delay to ensure DOM is ready
   setTimeout(() => {
