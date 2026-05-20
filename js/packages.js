@@ -30,7 +30,7 @@ const allPackages = [
   },
 
   {
-    id: 12, title: 'Heaven On Earth: Uttarakhand', dest: 'Uttarakhand', image: 'https://images.unsplash.com/photo-1626714485864-42b43b6771e3?w=600&q=80', duration: '8N/9D', price: '₹16,000', rating: 4.8, reviews: 230, highlights: ['Nainital', 'Mussoorie', 'Rishikesh'], type: 'group', badge: 'Trending',
+    id: 12, title: 'Heaven On Earth: Uttarakhand', dest: 'Uttarakhand', image: 'https://plus.unsplash.com/premium_photo-1691763914838-027436a3cdc8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dXR0YXJha2hhbmQlMjBpbmRpYXxlbnwwfHwwfHx8MA%3D%3D', duration: '8N/9D', price: '₹16,000', rating: 4.8, reviews: 230, highlights: ['Nainital', 'Mussoorie', 'Rishikesh'], type: 'group', badge: 'Trending',
     itinerary: [{ day: 'Day 1', title: 'Arrival', desc: 'Arrive.' }],
     inclusions: ['Hotels', 'Breakfast', 'Transport'], exclusions: ['Flights']
   },
@@ -40,22 +40,22 @@ const allPackages = [
     inclusions: ['Hotels', 'Breakfast', 'Transport', 'Safari'], exclusions: ['Flights']
   },
   {
-    id: 14, title: 'Blissful Nainital Ranikhet Tour', dest: 'Uttarakhand', image: 'https://images.unsplash.com/photo-1586000287868-b7ce539b9961?w=600&q=80', duration: '2N/3D', price: '₹8,925', rating: 4.5, reviews: 90, highlights: ['Naini Lake', 'Ranikhet Orchards'], type: 'family', badge: 'Bestseller',
+    id: 14, title: 'Blissful Nainital Ranikhet Tour', dest: 'Uttarakhand', image: 'https://images.unsplash.com/photo-1601821139990-9fc929db79ce?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHV0dGFyYWtoYW5kJTIwaW5kaWF8ZW58MHx8MHx8fDA%3D', duration: '2N/3D', price: '₹8,925', rating: 4.5, reviews: 90, highlights: ['Naini Lake', 'Ranikhet Orchards'], type: 'family', badge: 'Bestseller',
     itinerary: [{ day: 'Day 1', title: 'Arrival', desc: 'Arrive.' }],
     inclusions: ['Hotels', 'Breakfast', 'Transport'], exclusions: ['Flights']
   },
   {
-    id: 15, title: 'Most Affordable Uttarakhand Tour', dest: 'Uttarakhand', image: 'https://images.unsplash.com/photo-1596760086208-8e65e6a95f87?w=600&q=80', duration: '1N/2D', price: '₹2,800', rating: 4.2, reviews: 45, highlights: ['Rishikesh', 'Ganga Aarti'], type: 'group', badge: 'Limited Slots',
+    id: 15, title: 'Most Affordable Uttarakhand Tour', dest: 'Uttarakhand', image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1vdW50YWlufGVufDB8fDB8fHww', duration: '1N/2D', price: '₹2,800', rating: 4.2, reviews: 45, highlights: ['Rishikesh', 'Ganga Aarti'], type: 'group', badge: 'Limited Slots',
     itinerary: [{ day: 'Day 1', title: 'Arrival', desc: 'Arrive.' }],
     inclusions: ['Hotels', 'Breakfast'], exclusions: ['Flights', 'Transport']
   },
   {
-    id: 16, title: 'Best-Selling Rishikesh Tours', dest: 'Uttarakhand', image: 'https://images.unsplash.com/photo-1598322692790-8ba25642cda0?w=600&q=80', duration: '1N/2D', price: '₹3,938', rating: 4.7, reviews: 180, highlights: ['River Rafting', 'Camping'], type: 'adventure', badge: 'Bestseller',
+    id: 16, title: 'Best-Selling Rishikesh Tours', dest: 'Uttarakhand', image: 'https://images.unsplash.com/photo-1712510817140-917938f92e5b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmlzaGlrZXNofGVufDB8fDB8fHww', duration: '1N/2D', price: '₹3,938', rating: 4.7, reviews: 180, highlights: ['River Rafting', 'Camping'], type: 'adventure', badge: 'Bestseller',
     itinerary: [{ day: 'Day 1', title: 'Arrival', desc: 'Arrive.' }],
     inclusions: ['Camps', 'Meals', 'Rafting'], exclusions: ['Flights']
   },
   {
-    id: 17, title: 'Uttarakhand Tour Packages For 3 Days', dest: 'Uttarakhand', image: 'https://images.unsplash.com/photo-1586000287868-b7ce539b9961?w=600&q=80', duration: '2N/3D', price: '₹12,500', rating: 4.6, reviews: 110, highlights: ['Auli Skiing', 'Joshimath'], type: 'adventure', badge: 'Trending',
+    id: 17, title: 'Uttarakhand Tour Packages For 3 Days', dest: 'Uttarakhand', image: 'https://images.unsplash.com/photo-1612438214708-f428a707dd4e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXR0YXJha2hhbmR8ZW58MHx8MHx8fDA%3D', duration: '2N/3D', price: '₹12,500', rating: 4.6, reviews: 110, highlights: ['Auli Skiing', 'Joshimath'], type: 'adventure', badge: 'Trending',
     itinerary: [{ day: 'Day 1', title: 'Arrival', desc: 'Arrive.' }],
     inclusions: ['Hotels', 'Breakfast', 'Transport'], exclusions: ['Flights']
   },
@@ -65,7 +65,7 @@ const allPackages = [
     inclusions: ['Hotels', 'Breakfast', 'Transport', 'Candlelight Dinner'], exclusions: ['Flights']
   },
   {
-    id: 19, title: 'Manali-Kasol Tour Package', dest: 'Himachal', image: 'https://images.unsplash.com/photo-1623055455386-8a901844b256?w=600&q=80', duration: '3N/4D', price: '₹10,500', rating: 4.7, reviews: 250, highlights: ['Rohtang Pass', 'Solang Valley', 'Kasol Cafe'], type: 'adventure', badge: 'Trending',
+    id: 19, title: 'Manali-Kasol Tour Package', dest: 'Himachal', image: 'https://images.unsplash.com/photo-1656833111546-07d98abab448?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1hbmFsaXxlbnwwfHwwfHx8MA%3D%3D', duration: '3N/4D', price: '₹10,500', rating: 4.7, reviews: 250, highlights: ['Rohtang Pass', 'Solang Valley', 'Kasol Cafe'], type: 'adventure', badge: 'Trending',
     itinerary: [{ day: 'Day 1', title: 'Arrival', desc: 'Arrive.' }],
     inclusions: ['Hotels', 'Breakfast', 'Transport'], exclusions: ['Flights']
   },
@@ -75,17 +75,17 @@ const allPackages = [
     inclusions: ['Hotels', 'Breakfast', 'Cab', 'Honeymoon Inclusions'], exclusions: ['Flights']
   },
   {
-    id: 21, title: 'Best Of Himachal Honeymoon Package', dest: 'Himachal', image: 'https://images.unsplash.com/photo-1605640840469-60195f1bf85b?w=600&q=80', duration: '3N/4D', price: '₹12,500', rating: 4.6, reviews: 120, highlights: ['Dalhousie', 'Khajjiar'], type: 'honeymoon', badge: 'Bestseller',
+    id: 21, title: 'Best Of Himachal Honeymoon Package', dest: 'Himachal', image: 'https://plus.unsplash.com/premium_photo-1697729690458-2d64ca777c04?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhpbWFjaGFsfGVufDB8fDB8fHww', duration: '3N/4D', price: '₹12,500', rating: 4.6, reviews: 120, highlights: ['Dalhousie', 'Khajjiar'], type: 'honeymoon', badge: 'Bestseller',
     itinerary: [{ day: 'Day 1', title: 'Arrival', desc: 'Arrive.' }],
     inclusions: ['Hotels', 'Breakfast', 'Transport'], exclusions: ['Flights']
   },
   {
-    id: 22, title: 'Himachal Family Tour Packages', dest: 'Himachal', image: 'https://images.unsplash.com/photo-1598428584767-f311fb912dd5?w=600&q=80', duration: '9N/10D', price: '₹36,500', rating: 4.8, reviews: 210, highlights: ['Shimla', 'Manali', 'Dharamshala'], type: 'family', badge: 'Trending',
+    id: 22, title: 'Himachal Family Tour Packages', dest: 'Himachal', image: 'https://images.unsplash.com/photo-1652543393067-281cea9b8c02?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhpbWFjaGFsfGVufDB8fDB8fHww', duration: '9N/10D', price: '₹36,500', rating: 4.8, reviews: 210, highlights: ['Shimla', 'Manali', 'Dharamshala'], type: 'family', badge: 'Trending',
     itinerary: [{ day: 'Day 1', title: 'Arrival', desc: 'Arrive.' }],
     inclusions: ['Hotels', 'Breakfast', 'Dinner', 'Transport'], exclusions: ['Flights']
   },
   {
-    id: 23, title: 'Blissful Himachal Honeymoon Package', dest: 'Himachal', image: 'https://images.unsplash.com/photo-1623055455386-8a901844b256?w=600&q=80', duration: '9N/10D', price: '₹37,500', rating: 4.9, reviews: 130, highlights: ['Complete Himachal', 'Spiti Valley'], type: 'honeymoon', badge: 'Premium',
+    id: 23, title: 'Blissful Himachal Honeymoon Package', dest: 'Himachal', image: 'https://images.unsplash.com/photo-1591382146670-900daa98d3d1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhpbWFjaGFsJTIwaG9uZXltb29ufGVufDB8fDB8fHww', duration: '9N/10D', price: '₹37,500', rating: 4.9, reviews: 130, highlights: ['Complete Himachal', 'Spiti Valley'], type: 'honeymoon', badge: 'Premium',
     itinerary: [{ day: 'Day 1', title: 'Arrival', desc: 'Arrive.' }],
     inclusions: ['Hotels', 'Meals', 'Transport'], exclusions: ['Flights']
   },

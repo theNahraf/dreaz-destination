@@ -1,13 +1,6 @@
 const allHotels = [
   // Taj Group
   {
-    id: 1,
-    brand: 'Taj Group',
-    name: 'Taj Rambagh, Sawai Man Mahal, Jai Mahal Palace, Taj Amer, Devi Ratn, Ramgarh Lodge',
-    location: 'Jaipur',
-    image: 'https://images.unsplash.com/photo-1542314831-c6a4d142104d?w=600&q=80'
-  },
-  {
     id: 2,
     brand: 'Taj Group',
     name: 'Taj Lake Palace, Taj Aravali Resort, Spa Taj Fateh Prakash Palace',
@@ -49,7 +42,7 @@ const allHotels = [
     brand: 'The Oberoi Group',
     name: 'The Oberoi- Bengaluru',
     location: 'The Oberoi- Bengaluru',
-    image: 'https://images.unsplash.com/photo-1551882547-ff40c0d5e9af?w=600&q=80'
+    image: 'https://lh3.googleusercontent.com/p/AF1QipOmyo81C__rgkDBjAftVDWRzjvHhkoUIIozTAJR=s1360-w1360-h1020-rw'
   },
   {
     id: 8,
