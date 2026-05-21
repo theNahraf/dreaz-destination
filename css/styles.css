@@ -162,6 +162,11 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 0;
   box-sizing: border-box;
   transition: all 0.3s ease;
+  color-scheme: dark;
+}
+.search-input option {
+  background-color: var(--navy);
+  color: white;
 }
 .search-input::placeholder { color: rgba(255,255,255,0.5); }
 .search-input:focus {
