@@ -80,11 +80,11 @@ function renderNavbar() {
   const links = [
     { href: 'index.html?v=4', label: 'Home', id: 'home' },
     {
-      label: 'DOMESTIC +',
+      label: 'Domestic +',
       id: 'domestic',
       dropdown: [
-        { href: 'hotels.html?v=4', label: 'HOTELS' },
-        { href: 'packages.html?v=4', label: 'PACKAGES' }
+        { href: 'hotels.html?v=4', label: 'Hotels' },
+        { href: 'packages.html?v=4', label: 'Packages' }
       ]
     },
     { href: 'about.html?v=4', label: 'About', id: 'about' },
