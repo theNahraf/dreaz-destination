@@ -168,6 +168,9 @@ h1, h2, h3, h4, h5, h6 {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+input.search-input, select.search-input {
+  height: 48px;
+}
 .search-input option {
   background-color: var(--navy);
   color: white;
@@ -719,6 +722,9 @@ h1, h2, h3, h4, h5, h6 {
   border-color: var(--teal);
   box-shadow: 0 0 0 4px rgba(14,116,144,0.1);
 }
+input.form-control, select.form-control {
+  height: 52px;
+}
 textarea.form-control { resize: vertical; min-height: 120px; }
 
 /* Date Input Hack */
@@ -736,6 +742,7 @@ input[type="date"] {
   min-width: 0;
   max-width: 100%;
   display: block;
+  min-height: 48px; /* Prevents collapsing when empty */
 }
 
 input[type="date"]::-webkit-datetime-edit,
@@ -743,6 +750,8 @@ input[type="date"]::-webkit-datetime-edit-fields-wrapper {
   overflow: hidden;
   max-width: 100%;
   display: block;
+  min-height: 1.5em; /* Ensures intrinsic line height */
+  line-height: 1.5em;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
   position: absolute;
