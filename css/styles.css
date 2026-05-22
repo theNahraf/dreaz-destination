@@ -736,6 +736,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 
 /* ---------- Swiper overrides ---------- */
+.swiper {
+  padding-bottom: 3rem !important;
+}
+.swiper-pagination {
+  bottom: 0 !important;
+}
 .swiper-pagination-bullet {
   background: var(--teal) !important;
   opacity: 0.3 !important;
